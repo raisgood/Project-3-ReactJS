@@ -3,12 +3,11 @@ import './App2';
 
 function App3() {
     return ( 
-    <div className = "App3">
+    <div className ="App3">
         <header>
-        <div id = "myDIV"
-        className = "header">
+        <div className="header">
         <h2>My To Do List</h2> </div> </header> <section>
-        <ul id = "myUL">
+        <ul id="myUL">
         <li> < input type = "checkbox" /> Hit the gym </li> <li> Pay bills <input type = "checkbox"/> </li> 
         <li> Meet Charlotte < input type = "checkbox" /> </li> 
         <li> Buy Groceries < input type = "checkbox" /> </li> 
@@ -18,26 +17,26 @@ function App3() {
         method = "POST">
         <label>
         <br />
-        Name / Company :
+        Name/Company :
         <br />
-        <input class = "inputBox"
-        type = "text"
-        name = "name" />
-        </label> <label>
+        <input class = "inputBox" type ="text" name ="name"/>
+        </label> 
+        <label>
         <br />
         Email:
         <br />
-        <input class = "inputBox"
-        type = "email"
-        name = "replyto" />
-        </label> <label>
+        <input class = "inputBox" type ="email" name ="replyto" />
+        </label> 
+        <label>
         <br />
         Suggestions:
         <br />
-        <textarea name = "message"> </textarea> <input id = "sendButton"
-        type = "submit"
-        value = "Send" />
-        </label> </form> </section> </div>
+        <textarea name = "message"> </textarea> 
+        <input id = "sendButton" type = "submit" value = "Send" />
+        </label>
+        </form> 
+        </section> 
+        </div>
     );
 }
 export default App3;*/
