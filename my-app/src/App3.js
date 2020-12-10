@@ -17,7 +17,7 @@ function App3() {
         method = "POST">
         <label>
         <br />
-        Name/Company :
+        Name/Company:
         <br />
         <input class = "inputBox" type ="text" name ="name"/>
         </label> 
